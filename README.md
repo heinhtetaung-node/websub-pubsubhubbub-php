@@ -24,6 +24,10 @@ open url yourdomain.com/accept.php and submit, that will publish your feed to hu
 
 check log.txt file that will print your new xml object
 
+And inside your folder it will create new xml file with current date which containing new item.
+
+
+
 #Adding new item to feed.xml
 1. If you want to add new item to xml file, you can add new entry tag under <id>http://blog.superfeedr.com/</id>  line no 8
 
@@ -32,6 +36,8 @@ check log.txt file that will print your new xml object
 open url yourdomain.com/accept.php and submit, that will publish your feed to hub
 
 3. After publishing is finished hub will inform to your subscriber's callback url check log.txt file that will print your new xml object
+
+And inside your folder it will create new xml file with current date which containing new item.
 
 
 That's it, how easy! happy coding.
