@@ -26,6 +26,7 @@ open url yourdomain.com/accept.php and submit, that will publish your feed to hu
 2. After adding, please publish your changes to inform hub
 
 open url yourdomain.com/accept.php and submit, that will publish your feed to hub
+
 3. After publishing is finished hub will inform to your subscriber's callback url check log.txt file that will print your new xml object
 
 
