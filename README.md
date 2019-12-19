@@ -11,7 +11,9 @@ We can check and understand why we should use publish/scribe pattern by watching
 curl -X POST 'http://pubsubhubbub.appspot.com/' -d'hub.verify=sync' -d'hub.topic=youdomain.com/feed.xml' -d'hub.callback=yourdomain.com/accept.php' -d'hub.mode=subscribe' -d'hub.verify_token=test_verify_token'  -D-
 ```
 So, hub will check your callback url yourdomain.com/accept.php with get method, it should be echo hub_challenge
+
 If everything is right, it will return 204, otherwise you have error
+
 3. If success, publish your feed to hub
 open url yourdomain.com/accept.php and submit, that will publish your feed to hub
 4. After publishing is finished hub will inform to your subscriber's callback url check log.txt file that will print your new xml object
