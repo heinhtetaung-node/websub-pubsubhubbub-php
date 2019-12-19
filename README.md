@@ -19,10 +19,14 @@ If everything is right, it will return 204, otherwise you have error
 3. If success, publish your feed to hub
 
 open url yourdomain.com/accept.php and submit, that will publish your feed to hub
-4. After publishing is finished hub will inform to your subscriber's callback url check log.txt file that will print your new xml object
+
+4. After publishing is finished hub will inform to your subscriber's callback url
+
+check log.txt file that will print your new xml object
 
 #Adding new item to feed.xml
 1. If you want to add new item to xml file, you can add new entry tag under <id>http://blog.superfeedr.com/</id>  line no 8
+
 2. After adding, please publish your changes to inform hub
 
 open url yourdomain.com/accept.php and submit, that will publish your feed to hub
