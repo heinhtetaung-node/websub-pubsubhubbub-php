@@ -29,7 +29,7 @@ And inside your folder it will create new xml file with current date which conta
 
 
 #Adding new item to feed.xml
-1. If you want to add new item to xml file, you can add new entry tag under <id>http://blog.superfeedr.com/</id>  line no 8
+1. If you want to add new item to feeds.xml file, you can add new entry tag under `<id>http://blog.superfeedr.com/</id>`  line no 8
 
 2. After adding, please publish your changes to inform hub
 
